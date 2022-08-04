@@ -121,8 +121,7 @@ public:
         printf("Power Traction is %d\n", power_traction);
     };
 };
-
-
+//part 3
 
     int main() {
         {
@@ -183,7 +182,8 @@ public:
         t2->demonstrate();
 
 
-
+        delete t1;
+        delete t2;
     }
 
 
